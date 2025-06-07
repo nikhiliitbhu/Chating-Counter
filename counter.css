@@ -1,0 +1,104 @@
+body{
+    background-color:aliceblue
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+#current-round{
+    text-align: center;
+    font-size: 150px;
+    background-color: lightgray;
+}
+
+#total-round{
+
+    text-align: center;
+    font-size: 100px;
+    background-color: lightgray;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container>div{
+    width: 20%;
+    padding: 1rem;
+}
+
+#increment{
+    background-color: greenyellow;
+}
+
+#decrement{
+    background-color: rgb(225, 230, 173);
+}
+
+#clear{
+    background-color: rgb(241, 96, 96);
+}
+
+button{
+    width: 100%;
+    padding: 1rem;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    /* padding: 1rem; */
+}
+
+.container2>div{
+    width: 20%;
+    padding: 1rem;
+}
+
+.total-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 167%;
+}
+
+.total-container>div{
+    width: 20%;
+    height: 10%;
+}
+
+@media(max-width: 900px) {
+  .container{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container>div{
+    width: 80%;
+    padding: 1rem;
+    margin: auto;
+}
+
+#current-round{
+    font-size: 6rem;
+}
+
+/* .container2{
+    justify-content: space-between;
+    margin: 0 2rem;;
+} */
+}

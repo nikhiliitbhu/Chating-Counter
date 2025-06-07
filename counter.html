@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chanting Counter</title>
+
+    <link rel="stylesheet" href="counter.css">
+    <script src="counter.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+<body>
+    <h1 class="title">CHANTING COUNTER</h1>
+
+    <div class="container2">
+        <div>
+            <h3 id="count" style="font-size: xx-large; text-align: center;"> Current Round</h1>
+        </div>
+        <div>
+
+          <h3 id="count" style="font-size: xx-large; text-align: center;">Total Rounds</h1>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div>
+            <h1 id="current-round"> 0</h1>
+        </div>
+        <div>
+
+          <h1 id="total-round">0</h1>
+
+            <!-- total round editor -->
+          <div class="total-container">
+        <div class="total-increment">
+            <button id="increment" onclick="totalIncrement()">+</button>
+        </div>
+        <div class="total-decrement">
+            <button id="decrement" onclick="totalDecrement()">-</button>
+        </div>
+        <div class="total-clear">
+            <button id="clear" onclick="totalClear()">0</button>
+        </div>
+
+
+    </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="increment">
+            <button id="increment" onclick="increment()">+</button>
+        </div>
+        <div class="decrement">
+            <button id="decrement" onclick="decrement()">-</button>
+        </div>
+        <div class="clear">
+            <button id="clear" onclick="clearFunc()">0</button>
+        </div>
+    </div>
+</body>
+</html>
+
