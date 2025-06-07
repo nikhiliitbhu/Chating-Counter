@@ -96,7 +96,13 @@ button{
 }
 
 #current-round{
+    text-align: left;
     width: 200%;
+    font-size: 6rem;
+}
+
+.container2{
+    justify-content: space-around;
 }
 
 #total-round{
@@ -105,5 +111,6 @@ button{
 
     .total-container>div{
         width: 33%;
+
     }
 }
